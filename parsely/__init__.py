@@ -1,7 +1,7 @@
-""" Top-level package for parse."""
-# parse/__init__.py
+""" Top-level package for parsely."""
+# parsely/__init__.py
 
-__app_name__ = "parse"
+__app_name__ = "parsely"
 __version__ = "0.1.0"
 __author__ = "Darius Hall"
 

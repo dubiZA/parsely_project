@@ -1,11 +1,11 @@
-"""This module provides the parse CLI."""
-# parse/cli.py
+"""This module provides the parsely CLI."""
+# parsely/cli.py
 
 from typing import Optional
 
 import typer
 
-from parse import __app_name__, __version__
+from parsely import __app_name__, __version__
 
 app = typer.Typer()
 

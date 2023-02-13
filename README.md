@@ -1,4 +1,4 @@
-parse
+parsely
 
 - dockerfile best practice checks:
     - [ ] use multistage builds
