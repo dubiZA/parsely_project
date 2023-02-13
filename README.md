@@ -1,5 +1,7 @@
 parsely
 
+# This is a work in project
+
 - dockerfile best practice checks:
     - [ ] use multistage builds
     - [ ] pin to semantic minor

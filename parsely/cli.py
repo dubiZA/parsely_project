@@ -1,4 +1,4 @@
-"""This module provides the parsely CLI."""
+"""This module provides the RP To-Do CLI."""
 # parsely/cli.py
 
 from typing import Optional
@@ -9,9 +9,11 @@ from parsely import __app_name__, __version__
 
 app = typer.Typer()
 
+
 def _version_callback(value: bool) -> None:
     if value:
-        print(f"{__app_name__} v{__version__}")
+        typer.echo(f"{__app_name__} v{__version__}")
+        raise typer.Exit()
 
 
 @app.callback()
